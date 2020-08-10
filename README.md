@@ -6,9 +6,9 @@ This repository contains review recommendations using Collaborative Filtering ap
 
 ## Models Used
 - NCF Recommenders Model
-  NCF is a new neural matrix factorization model, which ensembles Generalized Matrix Factorization (GMF) and Multi-Layer Perceptron (MLP) to unify the strengths of   the linearity of MF and non-linearity of MLP for modeling the user-item latent structures. 
+  - NCF is a new neural matrix factorization model, which ensembles Generalized Matrix Factorization (GMF) and Multi-Layer Perceptron (MLP) to unify the strengths of   the linearity of MF and non-linearity of MLP for modeling the user-item latent structures. 
 - Keras RecommenderNet
-  The Keras model computes a match score between user and item embeddings via a dot product and adds a bias for every user and every item. The match score is scaled   to the [0, 1] interval via a sigmoid.
+  - The Keras model computes a match score between user and item embeddings via a dot product and adds a bias for every user and every item. The match score is scaled   to the [0, 1] interval via a sigmoid.
 
 ## Web UI using React and Algolia
 #### Items rated by the user
